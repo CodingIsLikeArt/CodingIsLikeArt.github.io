@@ -1,0 +1,93 @@
+body{
+    background-color: #ece9e1;
+}
+
+.mySlides{
+    margin-top :20px ;
+    border-radius: 10px;
+  }
+
+.ulist{
+    margin-top: 30px !important;
+    background-color: #DAD7CD;
+    border-radius: 10px;
+}
+
+.ulist h4{
+    color: #171A21;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ulist p{
+    color:#3b341f;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.ulist li:link, .ulist li:visited{
+    background-color: #DAD7CD;
+
+}
+
+.ulist li:hover,.ulist li:hover{
+    background-color: #c7c1ab !important;
+}
+
+.article{
+    background-color:#DAD7CD ;
+    margin-top: 20px;
+    max-width:100% ;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.article-title{
+    color: #171A21;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.article-text{
+    color:#3b341f;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:650px) {
+    #logo {
+        position: absolute;
+        left: 50%;
+        margin-left: -105px;
+        }
+
+    #title-text{
+        display: none;
+    }
+}
+
+footer{
+    background-color: #171A21;
+    color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.names{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+footer li{
+    font-family: 'Lato', sans-serif;
+}
