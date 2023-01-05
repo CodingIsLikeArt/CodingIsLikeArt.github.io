@@ -71,13 +71,14 @@ a{
 footer{
     background-color: #171A21;
     color: #ffffff;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
 }
 
 .names{
     text-decoration: none;
     list-style-type: none;
+    padding-left: 0px !important;
 }
 
 footer h4{
@@ -85,9 +86,12 @@ footer h4{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-top: 30px;
-
 }
 
 footer li{
     font-family: 'Lato', sans-serif;
+}
+
+footer p{
+    font-family: "Roboto";
 }
