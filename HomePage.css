@@ -2,6 +2,12 @@ body{
     background-color: #ece9e1;
 }
 
+.video iframe{
+    margin-top :20px ;
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
 .mySlides{
     margin-top :20px ;
     border-radius: 10px;
@@ -66,13 +72,18 @@ a{
     #title-text{
         display: none;
     }
+
+    .video{
+        margin-left: 0px;
+        }
 }
 
 footer{
     background-color: #171A21;
     color: #ffffff;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     text-align: center;
+    padding-bottom: 50px !important;
 }
 
 .names{

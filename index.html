@@ -13,10 +13,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head>
 
+    </head>
     <body>
+
+        <script>
+            $(document).ready(function(){
+                $('.video').show();
+            })
+        </script>
         
         <div class="Header">
 
@@ -39,7 +46,11 @@
         <div class="w3-row-padding">
             
             <div class="slideshow w3-col m7">
-                    <img class="w3-animate-opacity w3-image mySlides" src="Asete/FotoShkolla.png">
+
+                <div class="video">
+                    <iframe allow="autoplay;" allowfullscreen src="https://clipchamp.com/watch/qCbgkMfxAid/embed"></iframe>
+                </div>
+
                     <ul class="w3-hoverable w3-ul ulist">
                         <li>
                             <a href="Naim Frasheri.html">
@@ -116,5 +127,7 @@
             <p class="w3-center w3-container"><p><b>Punoi për web:</b> Olsid Resuli</p>
 
         </footer>
+
+        <div class="note" style="padding-top:0px; padding-bottom:0px; background-color: rgb(11, 0, 72);font-family: 'Lato'; box-shadow: -2px 1px 16px 1px rgb(255 255 255 / 20%);; width: fit-content; position: fixed; right: 0px; bottom:0px; padding-left: 5px; padding-right: 5px; color:white;"><p><a href="Naim Frasheri.html">Kliko per te kaluar në faqen tjetër .</a></p></div>
     </body>
 </html>
