@@ -9,10 +9,10 @@ function dil(object){
     }
 }
 
-function hyr(){
+function hyr(object){
     var fjalekalim = document.getElementById("fjalekalimi").value ;
     if (fjalekalim == "2479"){
-        dil();
+        dil(object);
     }else{
         alert("Gabim");
     }
