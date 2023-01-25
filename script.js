@@ -11,7 +11,7 @@ function dil(object){
 
 function hyr(object){
     var fjalekalim = document.getElementById("fjalekalimi").value ;
-    if (fjalekalim == "2479"){
+    if (fjalekalim == "1409"){
         dil(object);
     }else{
         alert("Gabim");
