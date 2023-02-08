@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Asete/favicon.ico">
+    <title>Prezantimi i problemit</title>
+    <link rel="stylesheet" href="Generals.css">
+    <style>
+            .prezi{
+            position: absolute;
+            top:0px;
+            left: 0px;
+            z-index: 0;
+            background-image: linear-gradient(rgb(17, 0, 255), rgb(0, 204, 255));
+            height: 100vh;
+            width: 100vw;
+            
+        }
+
+        .prezi iframe{
+            position: absolute;
+            width: 70vw;
+            aspect-ratio: 16/9;
+            top: 50% ;
+            left: 50% ;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+        }
+
+        .prezi a{
+            position: absolute;
+            right: 10px;
+            top: 4px;
+            font-family: 'Roboto';
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        .prezi a:hover{
+            color: #010036;
+        }
+
+
+        @media screen and (max-width:800px){
+            .prezi iframe{
+                width: 95vw;
+            }
+        }
+    </style> 
+
+</head>
+<body>
+    <div class="prezi">
+    <iframe src="https://prezi.com/p/embed/s0FYxcRYW1h0OjZiLVhA/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen"></iframe>
+    <a href="index.html">&#10005</a>
+    </div>
+</body>
+</html>

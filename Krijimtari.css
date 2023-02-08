@@ -2,6 +2,18 @@
     background-image: url(Asete/pena.jpg);
 }
 
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box div{
+    margin: 10px 0px 10px 0px;
+    justify-content: center;
+}
+
+
 #logo{
     width: 210px;
     height: 70px;
@@ -39,11 +51,13 @@
 }
 
 .poem{
-    background-color:#DAD7CD;
+    background-color:#dad7cde6;
     border-radius: 20px;
     text-align: center;
-    opacity: 0.8;
     max-width: 99% !important;
+    height: 100%;
+    margin: 10px 0px 10px !important;
+
 }
 
 .poem-title{
@@ -57,13 +71,12 @@
     font-family: 'Lato', sans-serif;
 }
 
-.ditari{
-    background-color:#DAD7CD;
-    margin : 10px;
-    text-align: center;
-    opacity: 0.7;
-    border-radius: 20px;
+.content{
+    position:relative;
+    top:50%;
+    transform: translateY(-50%)
 }
+
 
 @media screen and (max-width:650px) {
     #logo {
